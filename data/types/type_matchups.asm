@@ -1,5 +1,6 @@
 TypeEffects:
 	;  attacker,     defender,     *=
+    db NORMAL,       DRAGON,       SUPER_EFFECTIVE
 	db WATER,        FIRE,         SUPER_EFFECTIVE
 	db FIRE,         GRASS,        SUPER_EFFECTIVE
 	db FIRE,         ICE,          SUPER_EFFECTIVE
@@ -30,7 +31,6 @@ TypeEffects:
 	db GRASS,        POISON,       NOT_VERY_EFFECTIVE
 	db GRASS,        ROCK,         SUPER_EFFECTIVE
 	db GRASS,        FLYING,       NOT_VERY_EFFECTIVE
-	db ICE,          WATER,        SUPER_VERY_EFFECTIVE
 	db ICE,          GRASS,        SUPER_EFFECTIVE
 	db ICE,          GROUND,       SUPER_EFFECTIVE
 	db ICE,          FLYING,       SUPER_EFFECTIVE
