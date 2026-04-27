@@ -1,7 +1,20 @@
 TypeEffects:
 	;  attacker,     defender,     *=
+    db NORMAL,       FIRE,         NOT_VERY_EFFECTIVE
+    db ROCK,         GHOST,        NO_EFFECT
+    db GHOSt,        ROCK,         NO_EFFECT
+    db GHOST,        FIGHTING,     NO_EFFECT
+    db ELECTRIC,     GHOST,        SUPER_EFFECTIVE,
+    db WATER,        ICE,          NOT_VERY_EFFECTIVE
+    db GRASS,        ELECTRIC,     SUPER_EFFECTIVE
+    db ELECTRIC,     ICE,          NOT_VERY_EFFECTIVE
+    db POISON,       WATER,        SUPER_EFFECTIVE
     db NORMAL,       DRAGON,       SUPER_EFFECTIVE
+    db PSYCHIC_TYPE, NORMAL,       NOT_VERY_EFFECTIVE
 	db WATER,        FIRE,         SUPER_EFFECTIVE
+    db DRAGON,       NORMAL,       NO_EFFECT
+    db FIRE,         POISON,       SUPER_EFFECTIVE
+    db POISON,       NORMAL,       SUPER_EFFECTIVE
 	db FIRE,         GRASS,        SUPER_EFFECTIVE
 	db FIRE,         ICE,          SUPER_EFFECTIVE
 	db GRASS,        WATER,        SUPER_EFFECTIVE
@@ -34,7 +47,6 @@ TypeEffects:
 	db ICE,          GRASS,        SUPER_EFFECTIVE
 	db ICE,          GROUND,       SUPER_EFFECTIVE
 	db ICE,          FLYING,       SUPER_EFFECTIVE
-	db ICE,          FIRE,         EFFECTIVE ; PureRGBnote: ADDED: this was added to facilitate customization of type matchups even though it seems redundant
 	db FIGHTING,     NORMAL,       SUPER_EFFECTIVE
 	db FIGHTING,     POISON,       NOT_VERY_EFFECTIVE
 	db FIGHTING,     FLYING,       NOT_VERY_EFFECTIVE
