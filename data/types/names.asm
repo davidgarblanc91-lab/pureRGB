@@ -26,14 +26,8 @@ ENDR
 	dw .Psychic
 	dw .Ice
 	dw .Dragon
-    dw .Fairy
-    dw .Dark
-    dw .Steel
-
+  
 	assert_table_length NUM_TYPES
-.Dark:     db "DARK@"
-.Fairy:    db "FAIRY@"
-.Steel:    db "STEEL@"
 .Normal:   db "NORMAL@"
 .Fighting: db "FIGHTING@"
 .Flying:   db "FLYING@"
