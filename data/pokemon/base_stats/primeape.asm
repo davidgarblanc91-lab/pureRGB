@@ -1,9 +1,9 @@
 	db DEX_PRIMEAPE ; pokedex id
 
-	db  70, 115,  60,  95,  60
+	db  90, 115,  75,  95,  75
 	;   hp  atk  def  spd  spc
 
-	db FIGHTING, FIGHTING ; type
+	db FIGHTING, GHOST ; type
 	db 75 ; catch rate
 	db 149 ; base exp
 
