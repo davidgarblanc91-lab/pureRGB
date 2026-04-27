@@ -230,10 +230,12 @@ KangaskhanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+    db 16, ROAR
 	db 18, BITE
 	db 23, STOMP
 	db 27, HEADBUTT
 	db 30, MIMIC
+    db 33, DRAGON_RAGE
 	db 36, REST
 	db 39, DOUBLE_EDGE
 	db 41, FOCUS_ENERGY
