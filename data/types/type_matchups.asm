@@ -1,5 +1,6 @@
 TypeEffects:
 	;  attacker,     defender,     *=
+    db NORMAL,       ELECTRIC,     NOT_VERY_EFFECTIVE
     db FLYING,       DRAGON,       NOT_VERY_EFFECTIVE
     db ROCK,         GHOST,        NO_EFFECT
     db GHOSt,        ROCK,         NO_EFFECT
