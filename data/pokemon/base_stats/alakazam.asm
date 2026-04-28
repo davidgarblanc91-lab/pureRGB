@@ -1,6 +1,6 @@
 	db DEX_ALAKAZAM ; pokedex id
 
-	db  75,  50,  65, 120, 130
+	db  75,  50,  60, 120, 130
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, ELECTRIC ; type
