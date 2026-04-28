@@ -1,9 +1,7 @@
 ; PureRGBnote: ADDED: You can now eat in the SS Anne Kitchen.
 SSAnneKitchen_Script:
 	call EnableAutoTextBoxDrawing
-	ld hl, wCurrentMapScriptFlags
-	bit BIT_CUR_MAP_LOADED_1, [hl]
-	res BIT_CUR_MAP_LOADED_1, [hl]
+	call WasMapJustLoaded
 	jr z, .notLoaded
 .reroll
 	; get a random value which will decide what text the randomized text chef will say first.
@@ -73,6 +71,7 @@ SSAnneKitchen_TextPointers:
 	dw_const SSAnneKitchenCook6Text, TEXT_SSANNEKITCHEN_COOK6
 	dw_const SSAnneKitchenCook7Text, TEXT_SSANNEKITCHEN_COOK7
 	dw_const SSAnneKitchenWaiterText, TEXT_SSANNEKITCHEN_WAITER
+	dw_const SSAnneKitchenOnlyTrashHereText, TEXT_SSANNEKITCHEN_ONLY_TRASH_HERE
 	dw_const SSAnneKitchenWaiterReturnsText, TEXT_SSANNEKITCHEN_WAITER_RETURNS
 
 SSAnneKitchenCook1Text:
@@ -233,3 +232,7 @@ GetMapSpriteLocation::
 	sub 4
 	ld e, a
 	ret
+
+SSAnneKitchenOnlyTrashHereText:
+	text_far _VermilionGymTrashText
+	text_end
