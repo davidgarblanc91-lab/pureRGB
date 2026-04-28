@@ -1,7 +1,6 @@
 TypeEffects:
 	;  attacker,     defender,     *=
     db FLYING,       DRAGON,       NOT_VERY_EFFECTIVE
-    db NORMAL,       FIRE,         NOT_VERY_EFFECTIVE
     db ROCK,         GHOST,        NO_EFFECT
     db GHOSt,        ROCK,         NO_EFFECT
     db GHOST,        FIGHTING,     NO_EFFECT
