@@ -15,6 +15,8 @@
 
 	; tm/hm learnset
 	tmhm \
+    THUNDERBOLT,\
+	THUNDER,\
 	TOXIC,\
 	BODY_SLAM,\
 	DOUBLE_EDGE,\
