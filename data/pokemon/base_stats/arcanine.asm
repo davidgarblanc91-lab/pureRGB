@@ -1,6 +1,6 @@
 	db DEX_ARCANINE ; pokedex id
 
-	db  90, 105,  80,  95,  90
+	db  85, 105,  80,  95,  85
 	;   hp  atk  def  spd  spc
 
 	db FIRE, GHOST ; type
