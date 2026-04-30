@@ -87,7 +87,7 @@ Moves:
 	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             60, GRASS,        100, 10
 	move LEECH_SEED,   LEECH_SEED_EFFECT,            0, GRASS,        100, 10
 	move GROWTH,       GROWTH_EFFECT,                0, GRASS,        100, 10 
-	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        55, GRASS,        100, 25 ; high crit ratio
+	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        60, GRASS,        100, 25 ; high crit ratio
 	move SOLARBEAM,    BURN_SIDE_EFFECT1,          110, GRASS,        100, 10
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,        75, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         75, 30
