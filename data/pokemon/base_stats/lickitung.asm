@@ -1,6 +1,6 @@
 	db DEX_LICKITUNG ; pokedex id
 
-	db 120,  65,  75,  85,  65
+	db 120,  75,  80,  60,  80
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, GHOST ; type
