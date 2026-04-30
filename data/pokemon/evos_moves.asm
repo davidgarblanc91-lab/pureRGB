@@ -339,7 +339,7 @@ LickitungEvosMoves:
 	db 17, STOMP
 	db 20, DEFENSE_CURL
 	db 23, HEADBUTT
-    db 25,LICK
+    db 25, RECOVER
 	db 28, DIZZY_PUNCH
 	db 31, SLAM ; FILTHY SLAM
     DB 34, SONIC BOOM
