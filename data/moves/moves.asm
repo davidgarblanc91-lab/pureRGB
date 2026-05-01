@@ -61,7 +61,7 @@ Moves:
 	move ROAR,         ATTACK_DOWN_SIDE_EFFECT,     40, DRAGON,       100, 20
 	move SING,         SLEEP_EFFECT,                 0, NORMAL,        55, 15
 	move SUPERSONIC,   CONFUSION_EFFECT,             0, NORMAL,        55, 20
-	move SONICBOOM,    FLINCH_SIDE_EFFECT1,         60, GHOST,        100, 15 ; priority move
+	move SONICBOOM,    FLINCH_SIDE_EFFECT1,         50, GHOST,        100, 15 ; priority move
 	move DISABLE,      DISABLE_EFFECT,               0, NORMAL,        85, 20
 	move ACID,         ACID_SIDE_EFFECT,            50, POISON,       100, 30
 	move EMBER,        BURN_SIDE_EFFECT1,           40, FIRE,         100, 25
@@ -160,7 +160,7 @@ Moves:
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,        100, 30
 	move DIZZY_PUNCH,  CONFUSION_BIG_SIDE_EFFECT,   90, FIGHTING,     100, 10
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 15
-	move FLASH,        FLINCH_SIDE_EFFECT1,         60, ELECTRIC,     100, 15 ; priority move
+	move FLASH,        FLINCH_SIDE_EFFECT1,         50, ELECTRIC,     100, 15 ; priority move
 	move PSYWAVE,      SPECIAL_DOWN_SIDE_EFFECT,    30, PSYCHIC_TYPE, 100, 20
 	move SPLASH,       SPLASH_EFFECT,                0, NORMAL,       100, 40
 	move ACID_ARMOR,   ACID_ARMOR_EFFECT,            0, POISON,       100, 20 ; combined reflect and light screen effects in one move
