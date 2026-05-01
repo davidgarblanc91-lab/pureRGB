@@ -342,7 +342,7 @@ LickitungEvosMoves:
     db 25, RECOVER
 	db 28, DIZZY_PUNCH
 	db 31, SLAM ; FILTHY SLAM
-    db 34, SONIC BOOM
+    db 34, SONICBOOM
 	db 37, MEDITATE
 	db 42, MEGA_PUNCH
     db 48, BARRAGE
@@ -485,7 +485,7 @@ ArcanineEvosMoves:
     db 23, NIGHT_SHADE
 	db 28, TAKE_DOWN ; HEAT_RUSH
 	db 31, AGILITY
-	db 33, SONIC BOOM
+	db 33, SONICBOOM
 	db 36, FLAMETHROWER
 	db 42, SKULL_BASH
     db 47, BARRAGE
@@ -665,7 +665,6 @@ OnixEvosMoves:
 	db 45, WITHDRAW
 	db 52, SELFDESTRUCT
 	db 0
-
 
 SpearowEvosMoves:
 ; Evolutions
