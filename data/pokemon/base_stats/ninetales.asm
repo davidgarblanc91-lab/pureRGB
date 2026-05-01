@@ -1,6 +1,6 @@
 	db DEX_NINETALES ; pokedex id
 
-	db  73,  76,  75, 100, 100
+	db  73,  76,  80, 100, 115
 	;   hp  atk  def  spd  spc
 
 	db FIRE, PSYCHIC_TYPE ; type
