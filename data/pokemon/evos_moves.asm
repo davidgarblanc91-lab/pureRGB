@@ -342,7 +342,7 @@ LickitungEvosMoves:
     db 25, RECOVER
 	db 28, DIZZY_PUNCH
 	db 31, SLAM ; FILTHY SLAM
-    DB 34, SONIC BOOM
+    db 34, SONIC BOOM
 	db 37, MEDITATE
 	db 42, MEGA_PUNCH
     db 48, BARRAGE
