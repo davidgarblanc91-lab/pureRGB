@@ -1,6 +1,6 @@
 	db DEX_GOLBAT ; pokedex id
 
-	db  80,  95,  80,  130,  80
+	db  80,  95,  80,  120,  80
 	;   hp  atk  def  spd  spc
 
 	db POISON, FLYING ; type
