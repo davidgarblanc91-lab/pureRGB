@@ -382,6 +382,7 @@ MukEvosMoves:
 	db 46, POISON_GAS
 	db 50, EXPLOSION
 	db 55, RECOVER
+    db 60, SONIC BOOM
 	db 0
 
 
