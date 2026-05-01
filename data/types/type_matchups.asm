@@ -3,7 +3,7 @@ TypeEffects:
     db NORMAL,       ELECTRIC,     NOT_VERY_EFFECTIVE
     db FLYING,       DRAGON,       NOT_VERY_EFFECTIVE
     db ROCK,         GHOST,        NO_EFFECT
-    db GHOSt,        ROCK,         NO_EFFECT
+    db GHOST,        ROCK,         NO_EFFECT
     db GHOST,        FIGHTING,     NO_EFFECT
     db ELECTRIC,     GHOST,        SUPER_EFFECTIVE,
     db WATER,        ICE,          NOT_VERY_EFFECTIVE
